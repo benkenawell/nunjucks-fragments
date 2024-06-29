@@ -1,5 +1,10 @@
 import nunjucks from 'nunjucks';
 
+/**
+ *  Goal: check template string for URI Fragment Notation (fragment id), and return only that fragment, if found.
+ *
+ *  Current State: calls the callback function `cb` when it parses a fragment.  There are not id's yet
+ */
 export default function FragmentExtension(cb) {
   this.cb = cb;
   console.log('cb', cb, this.cb);
