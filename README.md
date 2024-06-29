@@ -3,6 +3,8 @@
 Inspired by [Carson Gross's Template Fragments Essay](https://htmx.org/essays/template-fragments/) and unable to find a templating engine
 for Javascript that supported such a feature, I've decided to try and write one for [Nunjucks](https://mozilla.github.io/nunjucks/).
 
+This is not for production!  Maybe some day, but today it would be ill advised to use.  Feel free to fork and hack on it though.
+
 ## Why Nunjucks?
 
 It's been my favorite templating engine when I'm trying stuff out.  It's inheritance is amazing, and it makes breaking
